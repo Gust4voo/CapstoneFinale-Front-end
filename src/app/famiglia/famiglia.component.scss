@@ -1,0 +1,129 @@
+.container-fluid{
+    width: 100%;
+    height: 27rem;
+  }
+
+  .carosello{
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-item{
+    height: 20rem;
+  }
+
+  .carousel-caption{
+    position: absolute; top: 60px; left: 0; right: 0;
+  }
+
+  //MEDIA QUERIES
+
+// 320px - 480px: Mobile Devices
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container-fluid {
+      width: 100%;
+      height: 10rem;
+    }
+
+    .carousel-item {
+      height: 10rem;
+    }
+  }
+
+  // 481px - 768px: iPads, Tablets
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .container-fluid {
+      width: 100%;
+      height: 15rem;
+    }
+
+    .carousel-item {
+      height: 15rem;
+    }
+  }
+
+  // 769px - 1024px: Small screens, laptops
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container-fluid {
+      width: 100%;
+      height: 20rem;
+    }
+
+    .carousel-item {
+      height: 20rem;
+    }
+  }
+
+  #bambini{
+    color: transparent;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    font-size: 45px;
+}
+
+#neonati{
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(114, 191, 68);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .help-section {
+    background-color: rgb(238, 238, 238);
+    padding: 1.5rem;
+    text-align: center;
+    border-left: 8px solid rgb(114, 191, 68);
+  }
+
+  .card {
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 6px #dadada,
+                 -5px -5px 6px #f6f6f6;
+    transition: 0.4s;
+  }
+
+  .card:hover {
+    translate: 0 -10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(114, 191, 68);
+    margin: 15px 0 0 10px;
+  }
+
+  .card-image {
+    min-height: 170px;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 10px #c3c3c3,
+              inset -8px -8px 10px #cfcfcf;
+  }
+
+  .card-body {
+    margin: 13px 0 0 10px;
+    color: rgb(31, 31, 31);
+    font-size: 15px;
+  }

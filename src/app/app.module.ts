@@ -36,6 +36,7 @@ import { Login2Component } from './auth/login2/login2.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BagaglioComponent } from './bagaglio/bagaglio.component';
 import { SpecialiComponent } from './speciali/speciali.component';
+import { FamigliaComponent } from './famiglia/famiglia.component';
 
 
 
@@ -162,6 +163,10 @@ const rotte: Route[] = [
     path: 'speciali',
     component: SpecialiComponent
   },
+  {
+    path: 'famiglia',
+    component: FamigliaComponent
+  },
 
 
 ];
@@ -200,6 +205,7 @@ const rotte: Route[] = [
     Login2Component,
     BagaglioComponent,
     SpecialiComponent,
+    FamigliaComponent,
 
 
 
