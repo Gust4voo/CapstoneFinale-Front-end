@@ -34,6 +34,8 @@ import { CanadaComponent } from './paesi/canada/canada.component';
 import { PrenotaComponent } from './prenota/prenota.component';
 import { Login2Component } from './auth/login2/login2.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BagaglioComponent } from './bagaglio/bagaglio.component';
+import { SpecialiComponent } from './speciali/speciali.component';
 
 
 
@@ -152,6 +154,14 @@ const rotte: Route[] = [
     path: 'canada',
     component: CanadaComponent
   },
+  {
+    path: 'bagaglio',
+    component: BagaglioComponent
+  },
+  {
+    path: 'speciali',
+    component: SpecialiComponent
+  },
 
 
 ];
@@ -188,6 +198,8 @@ const rotte: Route[] = [
     CanadaComponent,
     PrenotaComponent,
     Login2Component,
+    BagaglioComponent,
+    SpecialiComponent,
 
 
 
