@@ -31,49 +31,259 @@
                     >
                         Prenotare e gestire
                     </button>
-                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                        <li class="mx-2 p-1"><a>Informazioni sulla prenotazione</a></li>
-                        <hr class="border border-1 border-dark my-1 mx-0">
-                        <li class="divider"></li>
-                        <li class="dropdown-submenu ">
-                          <a tabindex="-1" class=" link mx-2 p-1">Destinazioni</a>
-                          <ul class="dropdown-menu">
-                            <li><a class="text-decoration-none text-success" routerLink="/brasile" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Brasile</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/canada" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Canada</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/cuba" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Cuba</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/egitto" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Egitto</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/francia" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Francia</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/giordania" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Giordania</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/grecia" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Grecia</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/italia" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Italia</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/kenya" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Kenya</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/maldive" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Maldive</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/marocco" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Marocco</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/messico" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Messico</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/portogallo" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Portogallo</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/regnounito" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Regno Unito</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/spagna" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Spagna</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/statiuniti" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Stati Uniti</a></li>
-                            <hr class="border border-1 border-dark my-1 mx-0">
-                            <li><a class="text-decoration-none text-success" routerLink="/tunisia" routerLinkActive="active"><i class="bi bi-geo-fill text-danger"></i> Tunisia</a></li>
-                          </ul>
+                    <ul
+                        class="dropdown-menu multi-level"
+                        role="menu"
+                        aria-labelledby="dropdownMenu"
+                    >
+                        <li class="mx-2 p-1">
+                            <a>Informazioni sulla prenotazione</a>
                         </li>
-                      </ul>
+                        <hr class="border border-1 border-dark my-1 mx-0" />
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" class="link mx-2 p-1"
+                                >Destinazioni</a
+                            >
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/brasile"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Brasile</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/canada"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Canada</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/cuba"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Cuba</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/egitto"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Egitto</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/francia"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Francia</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/giordania"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Giordania</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/grecia"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Grecia</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/italia"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Italia</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/kenya"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Kenya</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/maldive"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Maldive</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/marocco"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Marocco</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/messico"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Messico</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/portogallo"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Portogallo</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/regnounito"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Regno Unito</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/spagna"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Spagna</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/statiuniti"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Stati Uniti</a
+                                    >
+                                </li>
+                                <hr
+                                    class="border border-1 border-dark my-1 mx-0"
+                                />
+                                <li>
+                                    <a
+                                        class="text-decoration-none text-success"
+                                        routerLink="/tunisia"
+                                        routerLinkActive="active"
+                                        ><i
+                                            class="bi bi-geo-fill text-danger"
+                                        ></i>
+                                        Tunisia</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a
@@ -86,11 +296,37 @@
                         Preparare il viaggio
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="text-decoration-none text-dark mx-2 p-1" routerLink="/bagaglio" routerLinkActive="active"><i class="bi bi-luggage-fill text-success"></i> Bagaglio</a></li>
-                        <hr class="border border-1 border-dark my-1 mx-0">
-                        <li><a class="text-decoration-none text-dark mx-2 py-2" routerLink="/famiglia" routerLinkActive="active"><i class="bi bi-airplane text-success"></i> Viaggio in famiglia</a></li>
-                        <hr class="border border-1 border-dark my-1 mx-0">
-                        <li><a class="text-decoration-none text-dark mx-2 p-1" routerLink="/speciali" routerLinkActive="active"><i class="bi bi-person-wheelchair text-success"></i> Bisogni speciali</a></li>
+                        <li>
+                            <a
+                                class="text-decoration-none text-dark mx-2 p-1"
+                                routerLink="/bagaglio"
+                                routerLinkActive="active"
+                                ><i class="bi bi-luggage-fill text-success"></i>
+                                Bagaglio</a
+                            >
+                        </li>
+                        <hr class="border border-1 border-dark my-1 mx-0" />
+                        <li>
+                            <a
+                                class="text-decoration-none text-dark mx-2 py-2"
+                                routerLink="/famiglia"
+                                routerLinkActive="active"
+                                ><i class="bi bi-airplane text-success"></i>
+                                Viaggio in famiglia</a
+                            >
+                        </li>
+                        <hr class="border border-1 border-dark my-1 mx-0" />
+                        <li>
+                            <a
+                                class="text-decoration-none text-dark mx-2 p-1"
+                                routerLink="/speciali"
+                                routerLinkActive="active"
+                                ><i
+                                    class="bi bi-person-wheelchair text-success"
+                                ></i>
+                                Bisogni speciali</a
+                            >
+                        </li>
                     </ul>
                 </li>
             </ul>

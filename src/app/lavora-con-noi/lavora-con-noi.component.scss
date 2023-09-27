@@ -1,24 +1,24 @@
 .lavora-con-noi {
     background-color: white;
     padding: 4rem;
-  }
+}
 
-  .lavora-con-noi-content {
+.lavora-con-noi-content {
     text-align: center;
     color: #333;
-  }
+}
 
-  .lavora-con-noi-heading {
+.lavora-con-noi-heading {
     font-size: 2rem;
     margin-bottom: 2rem;
-  }
+}
 
-  .lavora-con-noi-description {
+.lavora-con-noi-description {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-  }
+}
 
-  .button {
+.button {
     padding: 1em 2em;
     border: none;
     border-radius: 5px;
@@ -31,16 +31,16 @@
     position: relative;
     overflow: hidden;
     outline: 2px solid #2c9caf;
-  }
+}
 
-  button:hover {
+button:hover {
     color: #ffffff;
     transform: scale(1.1);
     outline: 2px solid #70bdca;
     box-shadow: 4px 5px 17px -4px #268391;
-  }
+}
 
-  button::before {
+button::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -51,11 +51,8 @@
     transform: skewX(45deg);
     z-index: -1;
     transition: width 1000ms;
-  }
+}
 
-  button:hover::before {
+button:hover::before {
     width: 250%;
-  }
-
-
-
+}

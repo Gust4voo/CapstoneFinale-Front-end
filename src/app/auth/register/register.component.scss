@@ -7,9 +7,9 @@
     padding: 20px;
     border-radius: 20px;
     position: relative;
-  }
+}
 
-  .title {
+.title {
     font-size: 28px;
     color: #1cda48;
     font-weight: 600;
@@ -18,9 +18,10 @@
     display: flex;
     align-items: center;
     padding-left: 30px;
-  }
+}
 
-  .title::before,.title::after {
+.title::before,
+.title::after {
     position: absolute;
     content: "";
     height: 16px;
@@ -28,56 +29,57 @@
     border-radius: 50%;
     left: 0px;
     background-color: #ed1c24;
-  }
+}
 
-  .title::before {
+.title::before {
     width: 18px;
     height: 18px;
     background-color: #1cda48;
-  }
+}
 
-  .title::after {
+.title::after {
     width: 18px;
     height: 18px;
     animation: pulse 1s linear infinite;
-  }
+}
 
-  .message, .signin {
+.message,
+.signin {
     color: rgba(88, 87, 87, 0.822);
     font-size: 14px;
-  }
+}
 
-  .signin {
+.signin {
     text-align: center;
-  }
+}
 
-  .signin a {
+.signin a {
     color: #1cda48;
-  }
+}
 
-  .signin a:hover {
+.signin a:hover {
     text-decoration: underline #1cda48;
-  }
+}
 
-  .flex {
+.flex {
     display: flex;
     width: 100%;
     gap: 6px;
-  }
+}
 
-  .form label {
+.form label {
     position: relative;
-  }
+}
 
-  .form label .input {
+.form label .input {
     width: 100%;
     padding: 10px 10px 20px 10px;
     outline: 0;
     border: 1px solid rgba(105, 105, 105, 0.397);
     border-radius: 10px;
-  }
+}
 
-  .form label .input + span {
+.form label .input + span {
     position: absolute;
     left: 10px;
     top: 15px;
@@ -85,24 +87,25 @@
     font-size: 0.9em;
     cursor: text;
     transition: 0.3s ease;
-  }
+}
 
-  .form label .input:placeholder-shown + span {
+.form label .input:placeholder-shown + span {
     top: 15px;
     font-size: 0.9em;
-  }
+}
 
-  .form label .input:focus + span,.form label .input:valid + span {
+.form label .input:focus + span,
+.form label .input:valid + span {
     top: 30px;
     font-size: 0.7em;
     font-weight: 600;
-  }
+}
 
-  .form label .input:valid + span {
+.form label .input:valid + span {
     color: green;
-  }
+}
 
-  .submit {
+.submit {
     border: none;
     outline: none;
     background-color: #1cda48;
@@ -110,28 +113,28 @@
     border-radius: 10px;
     color: black;
     font-size: 16px;
-    transform: .3s ease;
-  }
+    transform: 0.3s ease;
+}
 
-  .submit:hover {
+.submit:hover {
     background-color: rgba(7, 244, 78, 0.674);
-  }
+}
 
-  @keyframes pulse {
+@keyframes pulse {
     from {
-      transform: scale(0.9);
-      opacity: 1;
+        transform: scale(0.9);
+        opacity: 1;
     }
 
     to {
-      transform: scale(1.8);
-      opacity: 0;
+        transform: scale(1.8);
+        opacity: 0;
     }
-  }
+}
 
-  #pagregister{
+#pagregister {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
-  }
+}

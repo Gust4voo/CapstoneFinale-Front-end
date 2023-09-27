@@ -1,45 +1,45 @@
 .help-center {
     padding: 2rem;
-  }
+}
 
-  .help-center-heading {
+.help-center-heading {
     font-size: 28px;
     text-align: center;
     color: #333;
-  }
+}
 
-  .help-center-content {
+.help-center-content {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-  }
+}
 
-  .help-section {
+.help-section {
     flex: 0 0 45%;
     background-color: #f9f9f9;
     padding: 1.5rem;
     border-radius: 4px;
-  }
+}
 
-  .help-section-heading {
+.help-section-heading {
     font-size: 20px;
     color: #333;
     margin-bottom: 1rem;
-  }
+}
 
-  .help-section-list {
+.help-section-list {
     list-style: disc;
     margin-left: 1.5rem;
     color: #333;
-  }
+}
 
-  .help-section-description {
+.help-section-description {
     font-size: 16px;
     color: #333;
     margin-bottom: 1rem;
-  }
+}
 
-  .button {
+.button {
     padding: 1em 2em;
     border: none;
     border-radius: 5px;
@@ -52,17 +52,16 @@
     position: relative;
     overflow: hidden;
     outline: 2px solid #2c9caf;
-  }
-  
+}
 
-  button:hover {
+button:hover {
     color: #ffffff;
     transform: scale(1.1);
     outline: 2px solid #70bdca;
     box-shadow: 4px 5px 17px -4px #268391;
-  }
+}
 
-  button::before {
+button::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -73,8 +72,8 @@
     transform: skewX(45deg);
     z-index: -1;
     transition: width 1000ms;
-  }
+}
 
-  button:hover::before {
+button:hover::before {
     width: 250%;
-  }
+}

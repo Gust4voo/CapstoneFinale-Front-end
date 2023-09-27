@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #0C4160;
+    background-color: #0c4160;
     padding: 30px 10px;
 }
 
@@ -41,21 +41,22 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
-    background-image: linear-gradient(to right, #25b75a 0%, #71f38d 51%, #12ef51 100%);
+    background-image: linear-gradient(
+        to right,
+        #25b75a 0%,
+        #71f38d 51%,
+        #12ef51 100%
+    );
     border: none;
     transition: 0.5s;
     background-size: 200% auto;
-
 }
-
 
 .btn.btn.btn-primary:hover {
     background-position: right center;
     color: #fff;
     text-decoration: none;
 }
-
-
 
 .btn.btn-primary:hover .fas.fa-arrow-right {
     transform: translate(15px);
@@ -88,9 +89,9 @@ p {
     font-weight: 600;
 }
 
-#pagamentodiv{
+#pagamentodiv {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
-  }
+}

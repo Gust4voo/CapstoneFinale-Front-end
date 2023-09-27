@@ -3,28 +3,63 @@
         <p class="title">Registrati</p>
         <div class="flex">
             <label>
-                <input required="" placeholder="" type="text" class="input" [(ngModel)]="name" [ngModelOptions]="{standalone: true}"/>
+                <input
+                    required=""
+                    placeholder=""
+                    type="text"
+                    class="input"
+                    [(ngModel)]="name"
+                    [ngModelOptions]="{ standalone: true }"
+                />
                 <span>Nome</span>
             </label>
 
             <label>
-                <input required="" placeholder="" type="text" class="input" [(ngModel)]="surname" [ngModelOptions]="{standalone: true}" />
+                <input
+                    required=""
+                    placeholder=""
+                    type="text"
+                    class="input"
+                    [(ngModel)]="surname"
+                    [ngModelOptions]="{ standalone: true }"
+                />
                 <span>Cognome</span>
             </label>
         </div>
 
         <label>
-            <input required="" placeholder="" type="text" class="input" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"/>
+            <input
+                required=""
+                placeholder=""
+                type="text"
+                class="input"
+                [(ngModel)]="email"
+                [ngModelOptions]="{ standalone: true }"
+            />
             <span>Email</span>
         </label>
 
         <label>
-            <input required="" placeholder="" type="text" class="input" [(ngModel)]="username" [ngModelOptions]="{standalone: true}"/>
+            <input
+                required=""
+                placeholder=""
+                type="text"
+                class="input"
+                [(ngModel)]="username"
+                [ngModelOptions]="{ standalone: true }"
+            />
             <span>Username</span>
         </label>
 
         <label>
-            <input required="" placeholder="" type="password" class="input" [(ngModel)]="password" [ngModelOptions]="{standalone: true}"/>
+            <input
+                required=""
+                placeholder=""
+                type="password"
+                class="input"
+                [(ngModel)]="password"
+                [ngModelOptions]="{ standalone: true }"
+            />
             <span>Password</span>
         </label>
         <button class="submit" (click)="register()">Registrati</button>
