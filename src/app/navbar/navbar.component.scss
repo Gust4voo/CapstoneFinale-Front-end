@@ -62,3 +62,38 @@ nav {
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+.custom-logout-button {
+    background-color: #eee;
+    border: none;
+    padding: 1px 15px ;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
+    height: 30px;
+    border-radius: 1rem;
+    color: rgb(237, 28, 36);
+    box-shadow: 0 0.4rem #dfd9d9;
+    text-align: center;
+    line-height: 1.5;
+
+    position: relative;
+    cursor: pointer;
+   }
+
+   .custom-logout-button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+
+   .custom-logout-button:hover:not(:disabled) {
+    background: rgb(237, 28, 36);
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+
+   .custom-logout-button:disabled {
+    cursor: auto;
+    color: grey;
+   }

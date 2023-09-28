@@ -13,20 +13,21 @@ export class RegisterComponent {
     surname:string="";
     email:string="";
     password:string="";
-    role:string="";
 
     constructor(private authService:AuthService, private router: Router){}
 
     ngOnInit(): void {}
 
     register(){
-        this.authService.register(this.username, this.name, this.surname, this.email, this.password, this.role).subscribe(
+        this.authService.register(this.username, this.name, this.surname, this.email, this.password,).subscribe(
           (response) => {
             console.log('Registrazione effettuata:', response);
-            this.router.navigate(['/login']);
+
+            alert("registrazione effetuata")
           },
           (error) => {
             console.error('Registration error:', error);
+            this.router.navigate(['/login2']);
 
           }
         );

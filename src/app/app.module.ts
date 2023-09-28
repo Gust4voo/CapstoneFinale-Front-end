@@ -39,9 +39,6 @@ import { SpecialiComponent } from './speciali/speciali.component';
 import { FamigliaComponent } from './famiglia/famiglia.component';
 
 
-
-
-
 const rotte: Route[] = [
   {
     path: '',

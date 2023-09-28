@@ -34,9 +34,8 @@ export class AuthService {
         surname: string,
         email: string,
         password: string,
-        numeroTelefono: string
     ): Observable<any> {
-        const newUser = { username, name, surname, email, password };
+        const newUser = { username, name, surname, email, password, };
         return this.http.post<any>(
             'http://localhost:8080/api/auth/register',
             newUser

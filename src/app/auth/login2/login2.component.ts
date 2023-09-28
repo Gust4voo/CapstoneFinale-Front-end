@@ -7,13 +7,14 @@ import { Route, Router } from '@angular/router';
     templateUrl: './login2.component.html',
     styleUrls: ['./login2.component.scss'],
 })
-export class Login2Component {
+export class Login2Component implements OnInit{
     username: string = '';
     password: string = '';
 
-    constructor(private authService: AuthService) {}
+    constructor(private authService: AuthService, private router: Router) {}
 
-    ngOnInit(): void {}
+    ngOnInit(): void {
+        window.scrollTo(0,0)}
 
     login(): void {
         this.authService.login(this.username, this.password).subscribe(
@@ -22,11 +23,12 @@ export class Login2Component {
                 const token = this.authService.getToken();
                 console.log('Token:', token); // Verifica il token nella console
 
-                //this.router.navigate(['/dashboard']);
+                this.router.navigate(['/home']);
                 console.log('Login effettuato:', response);
             },
             (error) => {
                 console.error('Errore di login:', error);
+
             }
         );
     }
