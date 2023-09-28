@@ -21,7 +21,9 @@ export class Login2Component implements OnInit{
             (response) => {
                 // Login effettuato con successo
                 const token = this.authService.getToken();
-                console.log('Token:', token); // Verifica il token nella console
+                console.log(response.username);
+                sessionStorage.setItem("username",response.username)
+                sessionStorage.setItem("token",response.accessToken)
 
                 this.router.navigate(['/home']);
                 console.log('Login effettuato:', response);

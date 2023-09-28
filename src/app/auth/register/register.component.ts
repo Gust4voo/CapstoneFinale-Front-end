@@ -22,12 +22,12 @@ export class RegisterComponent {
         this.authService.register(this.username, this.name, this.surname, this.email, this.password,).subscribe(
           (response) => {
             console.log('Registrazione effettuata:', response);
-
+            this.router.navigate(['/login2']);
             alert("registrazione effetuata")
           },
           (error) => {
             console.error('Registration error:', error);
-            this.router.navigate(['/login2']);
+            
 
           }
         );
