@@ -43,36 +43,16 @@ export class AuthService {
     }
 
     logout() {
-        localStorage.removeItem('token');
+        sessionStorage.removeItem('token');
+        sessionStorage.removeItem('username')
         alert('CIAO,RIEFFETTUA IL LOGIN PER ACCEDERE');
     }
 
     isLoggedIn(): boolean {
-        return !!localStorage.getItem('token');
+        return !!sessionStorage.getItem('token');
     }
 
     getToken(): string | null {
-        return localStorage.getItem('token');
-    }
-
-    getCurrentUser(): Observable<any> {
-        if (this.currentUser) {
-            return of(this.currentUser);
-        }
-
-        return this.http.get<any>('http://localhost:3001/users/current').pipe(
-            map((response) => {
-                console.log('Risposta API:', response);
-                if (!response) {
-                    throw new Error('Invalid API response');
-                }
-                this.currentUser = response;
-                return this.currentUser;
-            }),
-            catchError((error) => {
-                console.error("Errore nell'API:", error);
-                return throwError(error);
-            })
-        );
+        return sessionStorage.getItem('token');
     }
 }
