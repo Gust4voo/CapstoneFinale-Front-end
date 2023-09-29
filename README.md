@@ -1,7 +1,10 @@
+
 # Benvenuto nel file README di GUZ Viaggi!
 
-<img src="/src/assets/img/Logo.png" alt="" style="height: 200px; width:200px">
-
+  <div align="center">
+    <img src="/src/assets/img/Logo.png" alt="" style="height: 200px; width:200px">
+  </div>  
+  
 ## 📝 DESCRIZIONE
 
 Con "GUZ Viaggi", la tua prossima avventura è a portata di clic. Sviluppata con Angular e Java Spring, la piattaforma consente agli utenti di esplorare e prenotare facilmente viaggi emozionanti in tutto il mondo.
@@ -62,6 +65,6 @@ Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, 
 Attualmente, questa è solo la prima versione di GUZ Viaggi. Sono previsti ulteriori sviluppi con l'aggiunta di nuove funzionalità.
 
 Grazie per l'attenzione, Per domande o assistenza, contatta gustavo.oliveira.abdo.chead@gmail.com
-    
+  
 
 
