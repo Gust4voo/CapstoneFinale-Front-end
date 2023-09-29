@@ -1,27 +1,67 @@
-# Capstonefinale
+# Benvenuto nel file README di GUZ Viaggi!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+<img src="C:\Users\japao\OneDrive\Immagini\Saved Pictures\Yellow and Green Modern Illustration Tour and Travel Agency Logo.png" alt="" style="height: 50px; width:200px">
 
-## Development server
+## 📝 DESCRIZIONE
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Con "GUZ Viaggi", la tua prossima avventura è a portata di clic. Sviluppata con Angular e Java Spring, la piattaforma consente agli utenti di esplorare e prenotare facilmente viaggi emozionanti in tutto il mondo.
 
-## Code scaffolding
+Attraverso l'interfaccia utente intuitiva dell'applicazione, gli utenti possono scoprire destinazioni affascinanti, visualizzare dettagli sulle esperienze di viaggio, prenotare voli, hotel e attività uniche. Se stai cercando una vacanza rilassante, un'avventura avvincente o una fuga romantica, "GUZ Viaggi" ti offre una gamma diversificata di opzioni per soddisfare le tue esigenze di viaggio.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, offrendo un modo semplice e intuitivo per esplorare, prenotare e creare ricordi indimenticabili. Con "GUZ Viaggi", ogni viaggio è un'opportunità per scoprire il mondo in modo unico e personalizzato.
 
-## Build
+## ⛱️  Landing Page: Una pagina introduttiva che descrive l'applicazione e le sue funzionalità.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img src="" alt="" style="height: 400px; width:800px">
 
-## Running unit tests
+## 🚪  Pagina di Login e Registrazione: Gli utenti possono accedere o registrarsi per un nuovo account utilizzando questa pagina.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img src="" alt="" style="height: 400px; width:800px">
 
-## Running end-to-end tests
+## ☀️ Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<img src="" alt="" style="height: 400px; width:800px">
 
-## Further help
+## 📓 Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="" alt="" style="height: 400px; width:800px">
+
+## 💳 Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
+
+<img src="" alt="" style="height: 400px; width:800px">
+
+
+## 🛠 TECNOLOGIE UTILIZZATE
+
+- Frontend: Angular, Bootstrap
+- Backend: Java, Spring Boot,  PostgreSQL
+
+ 
+ ## 💾 INSTALLAZIONE 
+ 
+ 1. Clona o scarica il progetto dalla repository su GitHub. Il progetto contiene sia il lato front-end che il back-end dell'applicazione.
+
+2. Crea un database chiamato "CapstoneFinale" utilizzando pgAdmin (PostgreSQL). Questo database è fondamentale per far funzionare correttamente l'applicazione.
+
+3. Avvia l'applicazione backend di SpringBoot e mantienila attiva. Questo è essenziale per attivare il server e renderlo disponibile al front-end. Assicurati di non saltare questo passaggio o quello della creazione del database, poiché l'intera applicazione dipende strettamente dal database.
+
+## Istruzioni per l'avvio del front-end
+
+1. Assicurati di avere Node.js installato sul tuo computer.
+
+2. Assicurati di avere Angular CLI installato sul tuo computer.
+
+3. Apri il terminale nella directory del progetto front-end.
+
+5. Esegui il comando `npm install` per installare tutte le dipendenze necessarie.
+
+6. Avvia l'applicazione eseguendo il comando ` ng s -o`.
+
+## Versioni future
+
+Attualmente, questa è solo la prima versione di GUZ Viaggi. Sono previsti ulteriori sviluppi con l'aggiunta di nuove funzionalità.
+
+Grazie per l'attenzione, Per domande o assistenza, contatta gustavo.oliveira.abdo.chead@gmail.com
+    
+
+
