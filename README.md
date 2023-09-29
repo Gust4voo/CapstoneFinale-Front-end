@@ -4,6 +4,8 @@
   <div align="center">
     <img src="/src/assets/img/Logo.png" alt="" style="height: 200px; width:200px">
   </div>  
+
+  Backend Repository Link: https://github.com/Gust4voo/CapstoneFinale-Back-end
   
 ## 📝 DESCRIZIONE
 
