@@ -1,6 +1,6 @@
 # Benvenuto nel file README di GUZ Viaggi!
 
-<img src="C:\Users\japao\OneDrive\Immagini\Saved Pictures\Yellow and Green Modern Illustration Tour and Travel Agency Logo.png" alt="" style="height: 50px; width:200px">
+<img src="/src/assets/img/Logo.png" alt="" style="height: 50px; width:200px">
 
 ## 📝 DESCRIZIONE
 
@@ -12,11 +12,11 @@ Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, 
 
 ## ⛱️  Landing Page: Una pagina introduttiva che descrive l'applicazione e le sue funzionalità.
 
-<img src="" alt="" style="height: 400px; width:800px">
+<img src="/src/assets/img/paginiziale.png" alt="" style="height: 400px; width:800px">
 
 ## 🚪  Pagina di Login e Registrazione: Gli utenti possono accedere o registrarsi per un nuovo account utilizzando questa pagina.
 
-<img src="" alt="" style="height: 400px; width:800px">
+<img src="/src/assets/img/logpag.png" alt="" style="height: 400px; width:800px">
 
 ## ☀️ Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
