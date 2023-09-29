@@ -19,7 +19,7 @@ Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, 
 
 ## 🚪  Pagina di Login e Registrazione: Gli utenti possono accedere o registrarsi per un nuovo account utilizzando questa pagina.
 
-<img src="/src/assets/img/logpag.png" alt="" style="height: 360px; width:800px">
+<img src="/src/assets/img/logpag.png" alt="" style="height: 330px; width:800px">
 
 ## ☀️ Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
