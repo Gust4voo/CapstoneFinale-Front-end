@@ -20,7 +20,7 @@ Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, 
 
 ## ☀️ Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
-<img src="" alt="" style="height: 400px; width:800px">
+<img src="/src/assets/img/pagpaesi.png" alt="" style="height: 400px; width:800px">
 
 ## 📓 Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
@@ -28,7 +28,7 @@ Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, 
 
 ## 💳 Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
 
-<img src="" alt="" style="height: 400px; width:800px">
+<img src="/src/assets/img/pagpaga.png" alt="" style="height: 400px; width:800px">
 
 
 ## 🛠 TECNOLOGIE UTILIZZATE
