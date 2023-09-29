@@ -13,28 +13,28 @@ Attraverso l'interfaccia utente intuitiva dell'applicazione, gli utenti possono 
 
 Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, offrendo un modo semplice e intuitivo per esplorare, prenotare e creare ricordi indimenticabili. Con "GUZ Viaggi", ogni viaggio è un'opportunità per scoprire il mondo in modo unico e personalizzato.
 
-## ⛱️  Landing Page: Una pagina introduttiva che descrive l'applicazione e le sue funzionalità.
+## ⛱️ Landing Page: Una pagina introduttiva che descrive l'applicazione e le sue funzionalità.
 
 <img src="/src/assets/img/paginiziale.png" alt="" style="height: 400px; width:800px">
 
-## 🚪  Pagina di Login e Registrazione: Gli utenti possono accedere o registrarsi per un nuovo account utilizzando questa pagina.
+## 🚪 Pagina di Login e Registrazione: Gli utenti possono accedere o registrarsi per un nuovo account utilizzando questa pagina.
 
 <img src="/src/assets/img/logpag.png" alt="" style="height: 330px; width:800px">
 
-## ☀️ Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
+## ☀️ Dopo l'accesso, gli utenti possono visualizzare le destinazioni disponibili per prenotare:
 
 <img src="/src/assets/img/pagpaesi.png" alt="" style="height: 400px; width:800px">
 
-## 📓 Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
+## 📓 Dopo la prenotazione, l'utente inserisce facilmente informazioni personali e il metodo di pagamento per completare il processo.
 
-<img src="/src/assets/img/pagprenota.png" alt="" style="height: 400px; width:800px">
+<img src="/src/assets/img/pagprenota.png" alt="" style="height: 360px; width:800px">
 
-## 💳 Dashboard: Dopo l'accesso, gli utenti possono visualizzare le destinazioni da:
+## 💳 Metodo di pagamento.
 
-<img src="/src/assets/img/pagpaga.png" alt="" style="height: 400px; width:800px">
+<img src="/src/assets/img/pagpaga.png" alt="" style="height: 350px; width:800px">
 
 
-## 🛠 TECNOLOGIE UTILIZZATE
+## 💻 TECNOLOGIE UTILIZZATE
 
 - Frontend: Angular, Bootstrap
 - Backend: Java, Spring Boot,  PostgreSQL
