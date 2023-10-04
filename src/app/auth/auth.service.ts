@@ -60,28 +60,23 @@ export class AuthService {
 
     getCurrentUser(): Observable<any> {
         if (this.currentUser) {
-          return of(this.currentUser);
+            console.log('Returning cached user:', this.currentUser);
+            return of(this.currentUser);
         }
 
         return this.http.get<any>('http://localhost:8080/api/auth/user').pipe(
-          map((response) => {
-            console.log('Risposta API:', response);
-            if (!response) {
-              throw new Error('Risposta API non valida');
-            }
-            this.currentUser = response;
-            return this.currentUser;
-          }),
-          catchError((error) => {
-            console.error('Errore API:', error);
-            return throwError(error);
-          })
+            map((response) => {
+                console.log('API Response:', response);
+                if (!response) {
+                    throw new Error('Invalid API Response');
+                }
+                this.currentUser = response;
+                console.log('Setting current user:', this.currentUser);
+                return this.currentUser;
+            }),
+            catchError((error) => {
+                console.error('API Error:', error);
+                return throwError(error);
+            })
         );
-      }
-
-
-
-
-
-
-}
+    }}

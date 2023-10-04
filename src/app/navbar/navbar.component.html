@@ -350,7 +350,7 @@
         <div class="navbar-right">
             <ul class="navbar-nav">
               <li *ngIf="isLoggedIn()" class="d-flex align-items-center">
-                <h6 class="welcomeMessage text-black pt-2">Benvenuto <strong>{{ user?.name }}</strong> </h6>
+                <h6 class="welcomeMessage text-black pt-2">Benvenuto <strong id="username">{{ user }}</strong> </h6>
                 <button type="button" class="btn custom-logout-button" (click)="logout()"><i class="bi bi-box-arrow-right"></i> Esci</button>
               </li>
             </ul>

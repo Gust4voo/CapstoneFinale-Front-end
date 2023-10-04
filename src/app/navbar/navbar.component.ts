@@ -16,15 +16,12 @@ export class NavbarComponent implements OnInit {
     constructor(private authService: AuthService, private router: Router){}
 
     ngOnInit(): void {
-        this.authService.getCurrentUser().subscribe(response => {
-          console.log("Risposta API:", response);
-          if (response) {
-              this.user = response;
-          } else {
-              console.error("Risposta API non valida.");
-          }
-      });
-      }
+        this.user = this.getUserNameFromLocalStorage();
+    }
+
+    private getUserNameFromLocalStorage(): string | null {
+        return sessionStorage.getItem('username');
+    }
 
     isLoggedIn(): boolean {
         return this.authService.isLoggedIn();
