@@ -1,21 +1,21 @@
 <div id="pagamentodiv">
     <div class="container p-0">
         <div class="card px-4">
-            <p class="h8 py-3">Payment Details</p>
+            <p class="h8 py-3">Dati di Pagamento</p>
             <div class="row gx-3">
                 <div class="col-12">
                     <div class="d-flex flex-column">
-                        <p class="text mb-1">Person Name</p>
+                        <p class="text mb-1">Titolare della carta</p>
                         <input
                             class="form-control mb-3"
                             type="text"
-                            placeholder="Name"
+                            placeholder="Nome e Cognome"
                         />
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="d-flex flex-column">
-                        <p class="text mb-1">Card Number</p>
+                        <p class="text mb-1">Numero della carta</p>
                         <input
                             class="form-control mb-3"
                             type="text"
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-6">
                     <div class="d-flex flex-column">
-                        <p class="text mb-1">Expiry</p>
+                        <p class="text mb-1">Data di scadenza</p>
                         <input
                             class="form-control mb-3"
                             type="text"
@@ -44,8 +44,8 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="btn btn-primary mb-3">
-                        <span class="ps-3">Pay $243</span>
+                    <div class="btn btn-primary mb-3" (click)="processPayment()">
+                        <span class="ps-3">Paga 200€</span>
                         <span class="fas fa-arrow-right"></span>
                     </div>
                 </div>

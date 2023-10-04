@@ -25,11 +25,12 @@ export class Login2Component implements OnInit{
                 sessionStorage.setItem("username",response.username)
                 sessionStorage.setItem("token",response.accessToken)
 
-                this.router.navigate(['/home']);
+                this.router.navigate(['']);
                 console.log('Login effettuato:', response);
             },
             (error) => {
                 console.error('Errore di login:', error);
+
 
             }
         );

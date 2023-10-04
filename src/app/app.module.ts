@@ -31,22 +31,19 @@ import { MessicoComponent } from './paesi/messico/messico.component';
 import { SpagnaComponent } from './paesi/spagna/spagna.component';
 import { TunisiaComponent } from './paesi/tunisia/tunisia.component';
 import { CanadaComponent } from './paesi/canada/canada.component';
-import { PrenotaComponent } from './prenota/prenota.component';
 import { Login2Component } from './auth/login2/login2.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BagaglioComponent } from './bagaglio/bagaglio.component';
 import { SpecialiComponent } from './speciali/speciali.component';
 import { FamigliaComponent } from './famiglia/famiglia.component';
+import { PrenotaComponent } from './prenota/prenota.component';
+
 
 
 const rotte: Route[] = [
   {
     path: '',
     component: HomeComponent,
-  },
-  {
-    path: '',
-    component: FooterComponent
   },
   {
     path: 'lavora',
@@ -141,10 +138,6 @@ const rotte: Route[] = [
     component: TunisiaComponent
   },
   {
-    path: 'prenota',
-    component: PrenotaComponent
-  },
-  {
     path: 'login2',
     component: Login2Component
   },
@@ -163,6 +156,9 @@ const rotte: Route[] = [
   {
     path: 'famiglia',
     component: FamigliaComponent
+  },{
+    path: 'prenota',
+    component: PrenotaComponent
   },
 
 
@@ -198,11 +194,12 @@ const rotte: Route[] = [
     SpagnaComponent,
     TunisiaComponent,
     CanadaComponent,
-    PrenotaComponent,
     Login2Component,
     BagaglioComponent,
     SpecialiComponent,
     FamigliaComponent,
+    PrenotaComponent,
+
 
 
 

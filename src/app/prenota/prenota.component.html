@@ -1,18 +1,18 @@
 <div id="pagprenota">
-    <div class="form">
+    <form class="form" (ngSubmit)="prenotaViaggio()">
         <div class="input-container ic2">
-            <input placeholder="" type="date" class="input" id="lastname" 
+            <input [(ngModel)]="dataPartenza" [ngModelOptions]="{ standalone: true }" type="date" name="andataPrenotazione" class="input" id="andataPrenotazione"
              />
             <div class="cut"></div>
         </div>
         <div class="input-container ic2">
-            <input placeholder="" type="date" class="input" id="lastname"
+            <input [(ngModel)]="dataRitorno" [ngModelOptions]="{ standalone: true }" type="date" name="ritornoPrenotazione" class="input" id="ritornoPrenotazione"
             />
             <div class="cut"></div>
         </div>
 
         <div class="input-container ic2">
-            <input placeholder="" type="number" class="input" id="email"
+            <input [(ngModel)]="numeroPersone" [ngModelOptions]="{ standalone: true }" type="number" name="numeroPersone" class="input"  id="numeroPersone"
             />
             <div class="cut cut-short"></div>
             <label class="iLabel" for="">Persone</label>
@@ -22,5 +22,6 @@
                 ><strong>Prenota ora</strong></a
             >
         </button>
-    </div>
+    </form>
 </div>
+
