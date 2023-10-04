@@ -97,3 +97,9 @@ nav {
     cursor: auto;
     color: grey;
    }
+
+   @media screen and (min-width: 320px) and (max-width: 480px) {
+    .navbar-toggler{
+        margin-left: 215px;
+       }
+}
