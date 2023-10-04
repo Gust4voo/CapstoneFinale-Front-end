@@ -29,11 +29,11 @@ Rendiamo la pianificazione del tuo prossimo viaggio un'esperienza senza stress, 
 
 ## 📓 Dopo la prenotazione, l'utente inserisce facilmente informazioni personali e il metodo di pagamento per completare il processo.
 
-<img src="/src/assets/img/pagprenota.png" alt="" style="height: 360px; width:800px">
+<img src="/src/assets/img/pagprenota2.png" alt="" style="height: 360px; width:800px">
 
 ## 💳 Metodo di pagamento.
 
-<img src="/src/assets/img/pagpaga.png" alt="" style="height: 350px; width:800px">
+<img src="/src/assets/img/pagpaga1.png" alt="" style="height: 350px; width:800px">
 
 
 ## 💻 TECNOLOGIE UTILIZZATE
