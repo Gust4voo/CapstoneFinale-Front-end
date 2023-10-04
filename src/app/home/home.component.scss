@@ -60,6 +60,10 @@
     .carousel-item {
         height: 10rem;
     }
+
+    .prezzo strong{
+        margin-left: 85px;
+    }
 }
 
 // 481px - 768px: iPads, Tablets
@@ -165,7 +169,7 @@
 }
 
 .prezzo {
-    margin-left: 200px; /* Regola la larghezza dell'offset a tua scelta */
+    margin-left: 200px;
 }
 
 #Brasile {
